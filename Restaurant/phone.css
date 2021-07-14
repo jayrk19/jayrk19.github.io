@@ -1,42 +1,49 @@
 /* Nav */
-#navbar{
-	flex-direction: column;
+
+#navbar {
+    flex-direction: column;
 }
 
+
 /* Home*/
-#home{
-	height: 370px;
+
+#home {
+    height: 370px;
 }
-#home::before{
-	height: 589px;
+
+#home::before {
+    height: 589px;
 }
-#home p{
-	font-size: 13px;
-	text-align: center;
+
+#home p {
+    font-size: 13px;
+    text-align: center;
 }
+
 
 /*Services*/
 
-
-#services{
-	flex-direction: column;
+#services {
+    flex-direction: column;
 }
+
 
 /* Clients*/
-#clients{
-	overflow: hidden;
+
+#clients {
+    overflow: hidden;
 }
+
 #clients .client-item {
-	    margin: 22px;
+    margin: 22px;
 }
+
 
 /* Contacs */
-#sub{
-	       width: 46%;
-	      
-}	      
 
-
+#sub {
+    width: 46%;
+}
 
 
 /* footer */

@@ -110,8 +110,8 @@ html{
     background-color: rgb(126 206 11);
     color: white;
     font-size: 23px;
-        border-radius: 10px;
-        cursor: pointer;
+     border-radius: 10px;
+     cursor: pointer;
 }
 /* Services*/
 .heading{

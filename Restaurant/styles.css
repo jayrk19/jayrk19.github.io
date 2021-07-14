@@ -1,0 +1,249 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 ! important;
+    width: 100% ;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 149px;
+    width:100%;
+    z-index: -1;
+    
+    opacity: 1.4;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 6px;
+}
+
+#logo img{
+    height: 119px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+/* Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 425px;
+    justify-content: center;
+    align-items: center;
+        font-size: 27px;
+        color: white;
+         font-family: 'Arvo', serif;
+
+}
+
+	
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_960_720.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.889;
+}
+.btn{
+	    width: 176px;
+	        margin-top: 10px;
+	            height: 34px;
+    background-color: rgb(126 206 11);
+    color: white;
+    font-size: 23px;
+        border-radius: 10px;
+        cursor: pointer;
+}
+/* Services*/
+.heading{
+	text-align: center;
+    font-size: 39px;
+    font-family: 'Bree Serif', serif;
+
+}
+.secondary{
+    font-size: 2rem;
+}
+#services-container{
+	        flex-direction: column;
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;}
+#services{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+        
+}
+#services .box{
+    border: 2px solid red;
+    width: 100%;
+    height: 409px;
+        padding: 0px;
+            margin: 31px 8px;
+        background: #dfe6d5;
+    border-radius: 28px; 
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+
+       
+}
+ #services  img{
+	    width: 60%;
+    height: 300px;
+  
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-weight: 60;
+}
+/*About*/
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 287px;
+}
+#clients-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 56%;
+    z-index: -1;
+    background: url('https://cdn.pixabay.com/photo/2017/11/04/19/05/christmas-2918569_960_720.jpg') no-repeat center center/cover;
+    opacity: 0.9;
+}
+#clients .client-item{
+        width: 145px;
+    height: 155px;
+    margin: 38px;
+}
+
+#clients .g img{
+   height: 120px;
+    width: 120px;
+}
+#clients .f img{
+    height: 120px;
+    width: 147px;
+}
+#clients .c img{
+    height: 120px;
+    width: 120px;
+}
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* Contact*/
+#contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_960_720.jpg') no-repeat center center/cover;
+}
+#contact-box input,#contact-box textarea{
+    width: 100%;
+    height: 2rem;
+    }
+#contact-box label{
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+}
+.form-group{
+       
+            width: 100%;
+    height: 450px;
+}
+#sub{
+      width: 25%;
+    height: 7%;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 30%;
+    cursor: pointer;
+}
+.heading1{
+        text-align: center;
+    font-size: 39px;
+    font-family: 'Bree Serif', serif;
+    color: ghostwhite;
+}
+

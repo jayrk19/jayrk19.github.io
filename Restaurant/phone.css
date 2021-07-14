@@ -1,0 +1,45 @@
+/* Nav */
+#navbar{
+	flex-direction: column;
+}
+
+/* Home*/
+#home{
+	height: 370px;
+}
+#home::before{
+	height: 589px;
+}
+#home p{
+	font-size: 13px;
+	text-align: center;
+}
+
+/*Services*/
+
+
+#services{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+}
+
+/* Clients*/
+#clients{
+	overflow: hidden;
+}
+#clients .client-item {
+	    margin: 22px;
+}
+
+/* Contacs */
+
+#sub{
+	       width: 46%;
+	      
+}	      
+
+
+
+/* footer */

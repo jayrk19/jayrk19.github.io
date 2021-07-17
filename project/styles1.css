@@ -1,0 +1,139 @@
+.text-box h1 {
+    font-size: 32px;
+}
+
+.nav-link {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    background-color: chocolate;
+    align-items: center;
+    z-index: 2;
+    transition: 1s;
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.nav-links li {
+    display: block;
+    margin: 22px;
+}
+
+#navbar .fa {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#navbar .fa fa-bars {
+    position: absolute;
+    right: 0;
+}
+
+
+/*campus*/
+
+.campusrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campus-col {
+    width: 66%;
+}
+
+.layer h3 {
+    font-size: 28px;
+}
+
+
+/* facilities */
+
+.fac-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fac-col {
+    width: 80%;
+}
+
+
+/* testimonials */
+
+.testrow {
+    display: block;
+    padding: 5px;
+}
+
+.test-col img {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+
+/* cta */
+
+.cta h1 {
+    font-size: 29px;
+}
+
+.cta a {
+    position: relative;
+    top: 40%;
+}
+
+
+/* About Us*/
+
+.abtrow {
+    flex-direction: column;
+}
+
+
+/* Blog */
+
+.bgrow {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container>h1 {
+    font-size: 26px;
+}
+
+
+/* contact us */
+
+.cntrow {
+    display: flex;
+    flex-direction: column;
+}
+
+.cnt-col div h5 {
+    font-size: 15px;
+}
+
+.cnt-col div p {
+    font-size: 10px;
+}
+
+.cnt-col .fa {
+    font-size: 22px;
+    margin: 10px;
+    margin-right: 13px;
+}

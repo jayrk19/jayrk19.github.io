@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(195 230 205);
+}
+
+.container>h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.rps {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.rps img:hover {
+    box-shadow: 2px 0px 18px 22px rgba(86, 193, 193, 0.75);
+    -webkit-box-shadow: 2px 0px 18px 22px rgba(86, 193, 193, 0.75);
+    -moz-box-shadow: 2px 0px 18px 22px rgba(86, 193, 193, 0.75);
+}
+
+#response {
+    display: flex;
+}

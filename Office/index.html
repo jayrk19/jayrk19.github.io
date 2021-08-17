@@ -20,7 +20,7 @@
 
 <body onload=" slide() ">
     <!-- <div id="preloader "></div> -->
-    <div class=" container-header ">
+    <div class=" container-header " id="home ">
         <div class=" banner ">
             <div class=" backgrnd-img ">
                 <img src=" images/off3.jpg " id=" slideImg ">
@@ -29,20 +29,20 @@
         <div class=" overlay ">
             <div class=" navbar ">
                 <div class=" logo ">
-                    <img src="images/revuesoft.png " alt=" " />
+                    <img src="images/revuesoft.jpg " alt=" " />
                 </div>
                 <div class=" menu ">
                     <ul class=" menulist ">
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Products</li>
-                        <li>Careers</li>
-                        <li>Contact</li>
+                        <li><a href="#home ">Home</a></li>
+                        <li><a href="# ">Services</a></li>
+                        <li><a href="# ">Product</a></li>
+                        <li><a href="# ">Careers</a></li>
+                        <li><a href="# ">Contact</a></li>
                     </ul>
                 </div>
                 <div class=" hello ">
-                    <ul class=" sayHello ">
-                        <li>Say Hello</li>
+                    <ul>
+                        <li><a href="#sayhello ">Say Hello</a></li>
                     </ul>
                 </div>
             </div>
@@ -156,16 +156,25 @@
     </div>
 
     <!-- GET IN TOUCH -->
-    <div class="touch ">
+    <div class="touch " id="sayhello "> 
         <div class="touch-cont ">
             <h1>Get In Touch</h1>
-            <form action=" " method=" ">
+            <form action=" ">
+                <div class="input-1 ">
                     <input type="text " name="name " placeholder="Enter Your Name " required>
-                    <input type="email " name="email " placeholder="Enter Your Email Id " required>
-                    <input type="text " name="subject " placeholder="Enter Your Subject " required>
-                    <textarea rows="8 " name="message " placeholder="Message " required></textarea>
-                    <button class="text-btn sp-btn ">Send Message</button>
-             </form>
+                </div>
+                <div class="input-2 ">
+                        <input type="email " name="email " placeholder="Enter Your Email Id " required>
+                </div>
+                <div class="input-3 ">
+                        <input type="text " name="subject " placeholder="Enter Your Subject " required>
+                </div>
+                <div class="input-4 ">
+                        <textarea rows="12 "  name="message " placeholder="Message " required></textarea>
+                </div>
+                <button class="btn t-btn ">Submit</button>
+            </form>
+            
         </div>
     </div>
 
@@ -173,9 +182,22 @@
     <div class="footer ">
         <div class="foot-cont ">
             <div class="foot-row ">
-                <div class="f-col ">Links</div>
-                <div class="f-col ">REVUESOFT SOLUTIONS INDIA PVT LTD</div>
-                <div class="f-col ">REACH US</div>
+              
+                <div class="f-col "><img src="images/revuesoft.png " alt=" "></div>
+                <div class="f-col ">
+                    
+                        <a>TERMS OF USE</a>
+                        <a>PRIVACY POLICY</a>
+                    
+                </div>
+                <div class="f-col ">
+                    
+                        <i class="fa fa-facebook-official "></i>
+                        <i class="fa fa-linkedin "></i>
+                        <i class="fa fa-twitter "></i>
+                        <i class="fa fa-google-plus "></i>
+                    
+                </div>
             </div>
         </div>
     </div>
@@ -192,8 +214,7 @@
         var images = new Array(
             'images/off3.jpg ',
             'images/office4.jpg ',
-            'images/ofice3.jpg ',
-            'images/office2.jpg ',
+            'images/ofice3.jpg '
         )
         var len = images.length
         var i = 0

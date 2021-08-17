@@ -12,6 +12,12 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: unset;
+    text-decoration-line: none;
+}
+
 
 /*Header*/
 
@@ -63,13 +69,13 @@ ul {
 .overlay .logo {
     height: 113px;
     width: 174px;
-    filter: brightness(2.5);
     position: relative;
     left: 112px;
     top: 8px;
 }
 
 .overlay .logo img {
+    filter: brightness(2.5);
     height: 100%;
     width: 100%;
 }
@@ -97,7 +103,7 @@ ul {
     justify-content: space-between;
 }
 
-.menulist li {
+.menulist li a {
     font-size: 25px;
     color: white;
     margin: auto 12px;
@@ -106,7 +112,7 @@ ul {
     transition: 0.3s;
 }
 
-.menulist li:hover {
+.menulist li a:hover {
     color: rgb(228, 10, 10);
     cursor: pointer;
     font-weight: bolder;
@@ -125,8 +131,12 @@ ul {
     padding: 4px;
     transition: 0.3s;
     position: absolute;
-    top: 33%;
+    top: 26%;
     right: 19px;
+}
+
+.hello:hover {
+    color: teal;
 }
 
 .hello::after {
@@ -164,16 +174,19 @@ ul {
     height: 56px;
     width: 282px;
     margin-top: 25px;
-    border-radius: 11px;
-    background-color: #b5b9ff;
+    border-radius: 30px;
+    background-color: tomato;
     font-size: 25px;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
+    font-family: 'Muli', sans-serif;
 }
 
 .btn:hover {
-    background-color: red;
-    color: white;
+    background-color: transparent;
+    color: tomato;
+    border: 2px solid tomato;
 }
 
 
@@ -252,6 +265,7 @@ ul {
     cursor: pointer;
     position: absolute;
     bottom: 15px;
+    font-family: 'Muli', sans-serif;
 }
 
 .btn-1:hover {
@@ -374,6 +388,99 @@ ul {
     margin-bottom: 45px;
 }
 
+.touch .touch-cont {
+    margin: auto;
+    width: 65%;
+    padding: 15px;
+    text-align: center;
+}
+
+.touch-cont h1 {
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+.touch-cont form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+}
+
+form input {
+    width: 90%;
+    height: 50px;
+    border: 1px solid #241f1f;
+    border-radius: 30px;
+    padding: 20px 16px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+
+form input:focus {
+    outline: navy;
+}
+
+form .input-1 {
+    flex: 38%;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    padding-left: 18px;
+}
+
+form .input-2 {
+    flex: 40%;
+    padding-right: 21px;
+}
+
+form .input-3 {
+    flex: 120%;
+    margin-bottom: 12px;
+}
+
+form .input-4 {
+    flex: 100%;
+    /* padding: 5px; */
+}
+
+form .input-4 input {
+    width: 75%;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid #241f1f;
+    border-radius: 30px;
+    padding: 20px 16px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    width: 90%;
+}
+
+form textarea:focus {
+    outline: navy;
+}
+
+.t-btn {
+    background-color: #615cfd;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 29%;
+}
+
+.t-btn:hover {
+    background-color: white;
+    color: #615cfd;
+    border: 2px solid #615cfd;
+}
+
 
 /* Footer */
 
@@ -388,5 +495,10 @@ ul {
 .foot-row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.f-links {
+    display: flex;
     flex-wrap: wrap;
 }

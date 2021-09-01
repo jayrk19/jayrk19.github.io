@@ -299,10 +299,10 @@ a {
   display: flex;
   width: auto;
   height: 52px;
-  position: relative;
+  position: absolute;
   top: 26px;
   font-family: "Muli", sans-serif;
-  left: 40%;
+  right:3%
 }
 
 .menu .menulist {

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src=" https://kit.fontawesome.com/5526b8114d.js "
+      crossorigin=" anonymous "
+    ></script>
+    <link rel=" stylesheet " href="ERP.css" />
+    <!-- <link rel=" stylesheet " href=" styles.css " /> -->
+    <title>Revuesoft</title>
+  </head>
+
+  <body onload=" loadfunc() ">
+    <div class="loader" id=" loading ">
+      <div class="loader-inner">
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html#home"
+          ><img src="images/revuesoft.png " alt=" "
+        /></a>
+      </div>
+      <div class="menu">
+        <ul class="menulist">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li class="dropdown">
+            <a href="#">Products <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+              <a href="npa.html">NPA Tracker</a>
+              <a href="race.html">Race ERP</a>
+              <a href="buildtrack.html">BuildTrack</a>
+              <a href="campuSmart.html">CampusSmart</a>
+              <a href="SEAM.html">SEAM App</a>
+            </div>
+          </li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ERP -->
+    <div class="cont">
+      <h1>NPA Tracker App</h1>
+      <p>
+        NPA Mobile Tracker App is a mobile application, used to track the loans
+        and advances released by the bank through its branches across the
+        country. The NPA tracker mobile app accelerates the process to update,
+        track and monitor the loan portfolio of the all the NPA accounts in the
+        entire Bank. It facilitates the bank officials to view all the relevant
+        loans with complete details, assign/reassign the loans accounts for a
+        more closer followup, update follow up calls and field visit details,
+        update images etc. It is a smart NPA management app well equipped with
+        various features like, SMS/Calling/mailing the staff/ borrowers and also
+        Location tagging facility. NPA Tracker to be installed on mobile phones
+        and tablets, ensures real time tracking and monitoring of the NPA.
+      </p>
+    </div>
+
+    <div class="footer">
+      <div class="foot-cont">
+        <div class="foot-row">
+          <div class="f-col-1">
+            <a href="terms.html">TERMS OF USE</a>
+            <a href="privacy-policy.html">PRIVACY POLICY</a>
+          </div>
+          <div class="f-col-2">
+            <img
+              src="images/revuesoft.png "
+              alt=" "
+              height="123px "
+              width="150px "
+            />
+          </div>
+          <div class="f-col-3">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-google-plus"></i>
+          </div>
+        </div>
+      </div>
+      <div class="foot-cont-2">
+        <hr style="background-color: white; margin-bottom: 12px" />
+        <h3>
+          Copyright &copy;2021. All Rights Reserved By Revuesoft Solutions India
+          Pvt Ltd.
+        </h3>
+      </div>
+    </div>
+
+    <script>
+      var preloader = document.getElementById(" loading ");
+
+      function loadfunc() {
+        preloader.style.display = " none ";
+      }
+    </script>
+  </body>
+</html>
